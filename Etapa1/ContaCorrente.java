@@ -1,10 +1,6 @@
 
 import java.util.Date;
 
-/**
- *
- * @author agern
- */
 public class ContaCorrente {
 
     private int numero;

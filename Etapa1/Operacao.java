@@ -1,12 +1,8 @@
 
 import java.util.Date;
 
-/**
- *
- * @author agern
- */
 public class Operacao {
-    
+
     private double valor;
     private double saldoAnterior;
     private TipoOperacao tipo;
@@ -21,8 +17,6 @@ public class Operacao {
         this.setData(data);
     }
 
-    
-    
     public double getValor() {
         return valor;
     }
@@ -62,6 +56,5 @@ public class Operacao {
     public void setData(Date data) {
         this.data = data;
     }
-    
-    
+
 }

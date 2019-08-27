@@ -1,10 +1,6 @@
 
 import java.util.ArrayList;
 
-/**
- *
- * @author agern
- */
 public abstract class Cliente {
 
     private String nome;

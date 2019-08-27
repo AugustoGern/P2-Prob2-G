@@ -1,7 +1,3 @@
-/**
- *
- * @author agern
- */
 
 public class ClientePessoaJuridica extends Cliente {
 
@@ -28,6 +24,5 @@ public class ClientePessoaJuridica extends Cliente {
 
     public void setServidorJMS(String servidorJMS) {
         this.servidorJMS = servidorJMS;
-    }    
+    }
 }
-

@@ -1,9 +1,6 @@
-/**
- *
- * @author agern
- */
+
 public class ClientePessoaFisica extends Cliente {
-    
+
     private String cpf;
 
     public ClientePessoaFisica(String cpf, String nome, String telFixo, String telCelular) {
@@ -18,5 +15,5 @@ public class ClientePessoaFisica extends Cliente {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    
+
 }
